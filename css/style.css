@@ -1018,7 +1018,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/03.jpg);
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_slider.scss */
@@ -1485,13 +1485,6 @@ h3 {
   border-radius: 50%;
   margin: auto;
   position: relative;
-}
-
-@media (max-width: 767px) {
-  /* line 25, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_about.scss */
-  .about_area .single_about_info .about_thumb {
-    margin-top: 30px;
-  }
 }
 
 /* line 35, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_about.scss */
@@ -5364,3 +5357,58 @@ h6 {
     margin: 0 62px;
   }
 }
+
+.slider_text {
+  display: inline-block;
+  padding: 24px;
+  background-color: #000;
+  transform: translateY(200px);
+}
+
+.slider_area_inner {
+  background-position: top !important;
+}
+
+ul li {
+  color: #727272;
+}
+
+.about_thumb img {
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  width: 100%;
+  height: 100%;  
+}
+
+.image_hover {
+  background-color: none !important;
+}
+
+.social_media_links_about ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social_media_links_about ul li {
+  margin: 0 8px;
+  background-color: #ccc;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.single_about_info {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .single_about_info {
+    margin-top: 140px;
+  }
+}
+ 

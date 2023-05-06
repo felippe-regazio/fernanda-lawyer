@@ -1943,7 +1943,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_testmonial.scss */
 .testmonial_bg_1 {
-  background-image: url("../img/testmonial/testmonial_bg.png");
+  background-image: url("../img/escr.jpeg");
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_testmonial.scss */
@@ -1951,7 +1951,7 @@ h3 {
   padding: 135px 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top;
 }
 
 @media (max-width: 767px) {
@@ -5412,3 +5412,30 @@ ul li {
   }
 }
  
+.logo-img img {
+  max-height: 56px;
+}
+
+.route {
+  display: flex;
+}
+
+.route img {
+  height: 300px;
+}
+
+.route .mapouter {
+  width: 100%;
+  display: block;
+} 
+
+@media screen and (max-width: 890px) {
+  .route {
+    display: block;
+  }
+
+  .route img {
+    max-width: 100%;
+    height: unset;
+  }
+}

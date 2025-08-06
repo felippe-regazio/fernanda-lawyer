@@ -62,13 +62,14 @@ h3 {
     display: block;
   }
 
-  .whos-she > div {
-    margin-bottom: 24px;
-  }
-
   .whos-she img {
     display: block;
     display: none;
+  }
+
+  .practice_area {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
   }
 }
 

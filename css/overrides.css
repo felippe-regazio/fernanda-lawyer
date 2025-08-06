@@ -1,0 +1,104 @@
+html *, body * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider_area, .header-area, .header-area .main-header-area.sticky  {
+  background-color: #fff;
+  padding: 0;
+}
+
+.header-area {
+  padding: 16px 0;
+}
+
+.header-area .main-header-area.sticky {
+  padding: 8px 16px;
+}
+
+.header-area .social_media_links ul li a {
+  background-color: #fff;
+  border: solid 2px #777;
+  color: #777
+}
+
+.call-to-action {
+  width: 100%;
+}
+
+.about_area .single_about_info p  {
+  text-align: left;
+}
+
+.boxed-btn4 {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: solid 1px #F2C64D !important;
+}
+
+.boxed-btn4:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+  transition: 200ms;
+  border: solid 1px #F2C64D !important;
+}
+
+h3 {
+  font-weight: normal !important;
+  font-size: 35px;
+}
+
+.practice_area {
+  padding-top: 56px !important;
+  padding-bottom: 56px !important;
+}
+
+.whos-she {
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 950px) {
+  .whos-she {
+    display: block;
+  }
+
+  .whos-she > div {
+    margin-bottom: 24px;
+  }
+
+  .whos-she img {
+    display: block;
+    display: none;
+  }
+}
+
+.call-to-action--white {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.call-to-action--white:hover {
+  background-color: #F2C64D !important;
+  color: #000 !important;
+}
+
+.social_media_links a {
+  font-size: 22px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.acting {
+  color: #fff;
+  background-color: #eee;
+}
+
+.acting p, .acting h3 {
+  color: #444;
+  padding: 32px 16px;
+}
+
+.acting p:not(:last-of-type) {
+  border-bottom: solid 1px #fafafa;
+}
